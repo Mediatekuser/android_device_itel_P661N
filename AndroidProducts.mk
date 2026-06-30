@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_P661N.mk
+    $(LOCAL_DIR)/voltage_P661N.mk
