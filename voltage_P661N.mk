@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/itel/P661N/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := infinity_P661N
+PRODUCT_NAME := voltage_P661N
 PRODUCT_DEVICE := P661N
 PRODUCT_MANUFACTURER := itel
 PRODUCT_BRAND := Itel
@@ -34,8 +34,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
-WITH_GAPPS := true
-WITH_GMS := true
+WITH_GAPPS := false
+WITH_GMS := false
 
 # Ship Basic Call Recorder App
 WITH_BCR := true
@@ -61,13 +61,11 @@ AXION_CAMERA_REAR_INFO := 50
 AXION_CAMERA_FRONT_INFO := 8
 
 # Maintainer name
-AXION_MAINTAINER := R
+AXION_MAINTAINER := Homelander
 
 # Processor name
 AXION_PROCESSOR := Mediatek_Dimensity_6080
 
 TARGET_INCLUDES_LOS_PREBUILTS := true
 
-# Maintainer Name
-INFINITY_MAINTAINER := "R"
 
