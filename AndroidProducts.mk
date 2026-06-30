@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_P661N.mk
+    $(LOCAL_DIR)/evox_P661N.mk
