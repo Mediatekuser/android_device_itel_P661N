@@ -34,8 +34,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
-WITH_GAPPS := true
-WITH_GMS := true
+WITH_GAPPS := false
+WITH_GMS := false
 
 # Ship Basic Call Recorder App
 WITH_BCR := true
@@ -52,18 +52,5 @@ PERF_ANIM_OVERRIDE := true
 
 # Enable blur effects
 TARGET_ENABLE_BLUR := true
-
-# Enable AxionFx
-TARGET_INCLUDE_AXFX := true
-
-# Camera information
-AXION_CAMERA_REAR_INFO := 50
-AXION_CAMERA_FRONT_INFO := 8
-
-# Maintainer name
-AXION_MAINTAINER := R
-
-# Processor name
-AXION_PROCESSOR := Mediatek_Dimensity_6080
 
 TARGET_INCLUDES_LOS_PREBUILTS := true
