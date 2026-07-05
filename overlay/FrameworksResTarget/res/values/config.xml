@@ -421,4 +421,16 @@
         <item>45</item>
         <item>53</item>
     </integer-array>
+
+	<!-- Navigation mode: 0=3-button, 1=2-button, 2=gesture -->
+	<integer name="config_navBarInteractionMode">2</integer>
+
+	<!-- Show gesture navigation handle/pill -->
+	<bool name="config_showNavigationBar">true</bool>
+
+	<!-- Back gesture inset -->
+	<dimen name="config_backGestureInset">20dp</dimen>
+	<integer name="config_backGestureInsetScaleLeft">1</integer>
+	<integer name="config_backGestureInsetScaleRight">1</integer>
+
 </resources>
